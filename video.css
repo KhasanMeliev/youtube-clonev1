@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(48, 48, 51);
+}
+#title{
+    font-size: 25px;
+    position: absolute;
+    left: 40px;
+    top: 550px;
+    color: white;
+}
+#vievs{
+    color: rgb(214, 205, 205);
+    font-size: 15px;
+    position: absolute;
+    left: 40px;
+    top: 585px;
+}
+#like{
+    color: rgb(48, 48, 51);
+    font-size: 20px;
+}
+#like{
+    color: black;
+    font-size: 35px;
+    position: absolute;
+    left: 630px;
+    top: 550px;
+    cursor: pointer;
+}
+#dislike{
+    color: black;
+    font-size: 35px;
+    position: absolute;
+    left: 830px;
+    top: 550px;
+    cursor: pointer;
+}

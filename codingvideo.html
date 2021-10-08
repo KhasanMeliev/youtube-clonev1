@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Watch</title>
+    <link rel="stylesheet" href="video.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <a href="index.html"
+      ><button
+        style="
+          color: white;
+          background-color: red;
+          font-size: 30px;
+          border: none;
+          border-radius: 2px;
+          width: 100%;
+          cursor: pointer;
+        "
+      >
+        Home
+      </button></a
+    >
+    <iframe
+      width="1333"
+      height="480"
+      src="https://www.youtube.com/embed/9Ds6dzhda0c"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <div class="header">
+      <div id="title">Styling Input Type Color | Pure CSS Tutorial</div>
+      <p id="vievs">431 views &bull; 30 Sept 2021</p>
+      <i class="fa fa-thumbs-up" id="like" onclick="like()"
+        ><p id="countlike">40</p></i
+      >
+      <i class="fa fa-thumbs-down" id="dislike" onclick="dislike()"
+        ><p id="countdislike">0</p></i
+      >
+    </div>
+  </body>
+  <script>
+    function like() {
+      document.getElementById("like").style.color = "white";
+      document.getElementById("dislike").style.color = "black";
+      document.getElementById("countlike").innerHTML = "41";
+      document.getElementById("countdislike").innerHTML = "0";
+    }
+    function dislike() {
+      document.getElementById("dislike").style.color = "white";
+      document.getElementById("like").style.color = "black";
+      document.getElementById("countdislike").innerHTML = "1";
+      document.getElementById("countlike").innerHTML = "40";
+    }
+  </script>
+</html>

@@ -1,0 +1,912 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.leftside {
+  width: 100px;
+  height: 635px;
+  background-color: rgb(41, 37, 37);
+}
+.border {
+  width: 59px;
+  height: 50px;
+  background-color: rgb(41, 37, 37);
+  position: absolute;
+  left: 16px;
+  top: 4px;
+  border-radius: 100px;
+}
+.border:hover {
+  background-color: rgb(29, 28, 28);
+  cursor: pointer;
+}
+.line {
+  width: 50px;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.line2 {
+  width: 50px;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  top: 26px;
+  left: 20px;
+}
+.line3 {
+  width: 50px;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  top: 32px;
+  left: 20px;
+}
+#home {
+  width: 100px;
+  height: 80px;
+  background-color: rgb(41, 37, 37);
+  position: absolute;
+  top: 80px;
+}
+#home:hover {
+  background-color: rgb(114, 107, 107);
+  cursor: pointer;
+}
+#home-icon {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  position: absolute;
+  top: 8px;
+  left: 30px;
+  cursor: pointer;
+}
+#home-icon-title {
+  font-size: 20px;
+  position: absolute;
+  top: 45px;
+  left: 20px;
+  color: white;
+}
+#explore {
+  width: 100px;
+  height: 80px;
+  background-color: rgb(41, 37, 37);
+  position: absolute;
+  top: 160px;
+}
+#explore:hover {
+  background-color: rgb(114, 107, 107);
+  cursor: pointer;
+}
+#explore-icon {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  position: absolute;
+  top: 8px;
+  left: 30px;
+  cursor: pointer;
+}
+#explore-icon-title {
+  font-size: 20px;
+  position: absolute;
+  top: 45px;
+  left: 20px;
+  color: white;
+}
+#subscribe {
+  width: 100px;
+  height: 80px;
+  background-color: rgb(41, 37, 37);
+  position: absolute;
+  top: 240px;
+}
+#subscribe:hover {
+  background-color: rgb(114, 107, 107);
+  cursor: pointer;
+}
+#subscribe-icon {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  position: absolute;
+  top: 8px;
+  left: 30px;
+  cursor: pointer;
+}
+#subscribe-icon-title {
+  font-size: 20px;
+  position: absolute;
+  top: 45px;
+  left: 10px;
+  color: white;
+}
+
+#library {
+  width: 100px;
+  height: 80px;
+  background-color: rgb(41, 37, 37);
+  position: absolute;
+  top: 310px;
+}
+#library:hover {
+  background-color: rgb(114, 107, 107);
+  cursor: pointer;
+}
+#library-icon {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  position: absolute;
+  top: 8px;
+  left: 30px;
+  cursor: pointer;
+}
+#library-icon-title {
+  font-size: 20px;
+  position: absolute;
+  top: 45px;
+  left: 20px;
+  color: white;
+}
+.uppart {
+  width: 1266px;
+  height: 100px;
+  background-color: rgb(41, 37, 37);
+  position: absolute;
+  top: 0px;
+  left: 100px;
+  border-bottom: 1px solid white;
+}
+#youtube-icon {
+  color: red;
+  font-size: 50px;
+  position: absolute;
+  left: 30px;
+  top: 10px;
+}
+#youtube-icon-title {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  left: 75px;
+  top: 35px;
+}
+#searchboxinput {
+  width: 400px;
+  height: 35px;
+  position: absolute;
+  left: 370px;
+  top: 27px;
+  background-color: rgb(20, 20, 20);
+  border: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  color: white;
+}
+#searchboxinput:hover {
+  outline: none;
+}
+#search-icon-box {
+  width: 60px;
+  height: 35px;
+  background-color: rgb(48, 44, 44);
+  position: absolute;
+  left: 770px;
+  top: 27px;
+  cursor: pointer;
+}
+#search-icon {
+  position: absolute;
+  left: 10px;
+  top: -1px;
+  font-size: 35px;
+  cursor: pointer;
+}
+#voicesearch {
+  width: 35px;
+  height: 35px;
+  background-color: rgb(15, 15, 15);
+  position: absolute;
+  left: 880px;
+  top: 27px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+#voice-icon {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  left: 11px;
+  top: 7px;
+}
+#createbtn {
+  font-size: 27px;
+  color: white;
+  position: absolute;
+  left: 990px;
+  top: 20px;
+}
+
+.createbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.create {
+  position: relative;
+  display: inline-block;
+}
+
+.create-content {
+  width: 100px;
+  height: 85px;
+  border-radius: 2px;
+  display: none;
+  position: absolute;
+  background-color: rgb(46, 43, 43);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  position: absolute;
+  left: 990px;
+  top: 45px;
+}
+
+.create-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.create-content a:hover {
+  background-color: black;
+}
+
+.create:hover .create-content {
+  display: block;
+  color: white;
+}
+
+.create:hover .createbtn {
+  background-color: blue;
+}
+#upload {
+  width: 160px;
+  height: 40px;
+  background-color: rgb(41, 37, 37);
+}
+#upload:hover {
+  background-color: rgb(87, 78, 78);
+  cursor: pointer;
+}
+#live {
+  width: 160px;
+  height: 40px;
+  background-color: rgb(41, 37, 37);
+}
+#live:hover {
+  background-color: rgb(87, 78, 78);
+  cursor: pointer;
+}
+#uploadvideo-icon {
+  font-size: 20px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+#golive-icon {
+  font-size: 20px;
+  position: absolute;
+  left: 10px;
+  top: 55px;
+}
+
+#uploadvideo {
+  position: absolute;
+  left: 35px;
+  top: 10px;
+  font-size: 20px;
+}
+#golive {
+  position: absolute;
+  left: 35px;
+  top: 54px;
+  font-size: 20px;
+}
+#notificationsbtn {
+  font-size: 27px;
+  color: white;
+  position: absolute;
+  left: 1050px;
+  top: 20px;
+}
+
+.notifications {
+  position: relative;
+  display: inline-block;
+}
+
+.notifications-content {
+  width: 400px;
+  height: 505px;
+  border-radius: 2px;
+  display: none;
+  position: absolute;
+  background-color: rgb(46, 43, 43);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  position: absolute;
+  left: 670px;
+  top: 45px;
+}
+
+.notifications-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.notifications-content a:hover {
+  background-color: black;
+}
+
+.notifications:hover .notifications-content {
+  display: block;
+  color: white;
+}
+
+.notifications:hover .notificationsbtn {
+  background-color: blue;
+}
+#notifications-title{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: white;
+}
+#firstmessage{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(48, 44, 44);
+    position: absolute;
+    top: 40px;
+}
+#firstmessage:hover{
+    background-color: rgb(122, 112, 112);
+}
+#channelname{
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+    border-radius: 100px;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    border: none;
+    cursor: pointer;
+}
+#comment{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    font-size: 10px;
+    cursor: pointer;
+}
+#videopicture{
+    width: 100px;
+    position: absolute;
+    left: 140px;
+    top: 5px;
+    cursor: pointer;
+}
+.profile{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 100px;
+    position: absolute;
+    left: 1130px;
+}
+#channelprofilepic{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+#buttons{
+    width: 1266px;
+    height: 70px;
+    background-color: rgb(26, 24, 24);
+    position: absolute;
+    top: 100px;
+}
+#all{
+    width: 60px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    cursor: pointer;
+    color: black;
+}
+
+
+#shawnmendes{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(150, 142, 142);
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    cursor: pointer;
+    color: white;
+}
+#shawnmendes:hover{
+    background-color: rgb(119, 110, 110);
+}
+
+#codingartist{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(150, 142, 142);
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    left: 260px;
+    top: 20px;
+    cursor: pointer;
+    color: white;
+}
+#codingartist:hover{
+    background-color: rgb(119, 110, 110);
+}
+#emmscode{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(150, 142, 142);
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    left: 420px;
+    top: 20px;
+    cursor: pointer;
+    color: white;
+}
+#emmscode:hover{
+    background-color: rgb(119, 110, 110);
+}
+#codinginfinite{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(150, 142, 142);
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    left: 580px;
+    top: 20px;
+    cursor: pointer;
+    color: white;
+}
+#codinginfinite:hover{
+    background-color: rgb(119, 110, 110);
+}
+#videos{
+    width: 1266px;
+    height: 465px;
+    background-color: rgb(73, 68, 68);
+    position: absolute;
+    top: 170px;
+    left: 100px;
+}
+#monster{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(73, 66, 66);
+    position: absolute;
+    left: 20px;
+    top: 5px;
+}
+#monsterpicture{
+    width: 260px;
+    height: 130px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#profilepic{
+    width: 50px;
+    border-radius: 100px;
+    position: absolute;
+    left: 15px;
+    top: 150px;
+}
+#monstername{
+    color: white;
+    position: absolute;
+    left: 70px;
+    top: 150px;
+    width: 200px;
+}
+#monsterprofilename{
+    position: absolute;
+    left: 70px;
+    top: 188px;
+    font-size: 20px;
+}
+#monsterprofilename a{
+    text-decoration: none;
+    color: black;
+}
+#monsterprofilename a:hover{
+    cursor: pointer;
+    color: white;
+}
+#monstervievs{
+    position: absolute;
+    left: 68px;
+    top: 210px;
+}
+#coding{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(73, 66, 66);
+    position: absolute;
+    left: 320px;
+    top: 5px;
+}
+#codingpicture{
+    width: 260px;
+    height: 130px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#codingprofilepic{
+    width: 50px;
+    border-radius: 100px;
+    position: absolute;
+    left: 15px;
+    top: 150px;
+}
+#codingname{
+    color: white;
+    position: absolute;
+    left: 70px;
+    top: 150px;
+    width: 200px;
+}
+#codingprofilename{
+    position: absolute;
+    left: 70px;
+    top: 188px;
+    font-size: 20px;
+}
+#codingprofilename a{
+    text-decoration: none;
+    color: black;
+}
+#codingprofilename a:hover{
+    cursor: pointer;
+    color: white;
+}
+#codingvievs{
+    position: absolute;
+    left: 68px;
+    top: 210px;
+}
+
+
+#infinite{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(73, 66, 66);
+    position: absolute;
+    left: 620px;
+    top: 5px;
+}
+#infinitepicture{
+    width: 260px;
+    height: 130px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#infiniteprofilepic{
+    width: 50px;
+    border-radius: 100px;
+    position: absolute;
+    left: 15px;
+    top: 150px;
+}
+#infinitename{
+    color: white;
+    position: absolute;
+    left: 70px;
+    top: 150px;
+    width: 200px;
+}
+#infiniteprofilename{
+    position: absolute;
+    left: 70px;
+    top: 188px;
+    font-size: 20px;
+}
+#infiniteprofilename a{
+    text-decoration: none;
+    color: black;
+}
+#infiniteprofilename a:hover{
+    cursor: pointer;
+    color: white;
+}
+#infinitevievs{
+    position: absolute;
+    left: 68px;
+    top: 210px;
+}
+
+
+#emms{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(73, 66, 66);
+    position: absolute;
+    left: 915px;
+    top: 5px;
+}
+#emmspicture{
+    width: 260px;
+    height: 130px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#emmsprofilepic{
+    width: 50px;
+    border-radius: 100px;
+    position: absolute;
+    left: 15px;
+    top: 150px;
+}
+#emmsname{
+    color: white;
+    position: absolute;
+    left: 70px;
+    top: 150px;
+    width: 200px;
+}
+#emmsprofilename{
+    position: absolute;
+    left: 70px;
+    top: 188px;
+    font-size: 20px;
+}
+#emmsprofilename a{
+    text-decoration: none;
+    color: black;
+}
+#emmsprofilename a:hover{
+    cursor: pointer;
+    color: white;
+}
+#emmsvievs{
+    position: absolute;
+    left: 68px;
+    top: 210px;
+}
+
+
+#summeroflove{
+    width: 350px;
+    height: 100px;
+    background-color: rgb(73, 66, 66);
+    position: absolute;
+    left: 20px;
+    top: 230px;
+}
+#summerpicture{
+    width: 260px;
+    height: 130px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#summerpic{
+    width: 50px;
+    border-radius: 100px;
+    position: absolute;
+    left: 15px;
+    top: 150px;
+}
+#summername{
+    color: white;
+    position: absolute;
+    left: 70px;
+    top: 150px;
+    width: 200px;
+}
+#summerprofilename{
+    position: absolute;
+    left: 70px;
+    top: 188px;
+    font-size: 20px;
+}
+#summerprofilename a{
+    text-decoration: none;
+    color: black;
+}
+#summerprofilename a:hover{
+    cursor: pointer;
+    color: white;
+}
+#summervievs{
+    position: absolute;
+    left: 68px;
+    top: 210px;
+}
+
+
+
+
+#coding2{
+    width: 350px;
+    height: 100px;
+    background-color: rgb(73, 66, 66);
+    position: absolute;
+    left: 320px;
+    top: 230px;
+}
+#coding2picture{
+    width: 260px;
+    height: 130px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#coding2profilepic{
+    width: 50px;
+    border-radius: 100px;
+    position: absolute;
+    left: 15px;
+    top: 150px;
+}
+#coding2name{
+    color: white;
+    position: absolute;
+    left: 70px;
+    top: 150px;
+    width: 200px;
+}
+#coding2profilename{
+    position: absolute;
+    left: 70px;
+    top: 188px;
+    font-size: 20px;
+}
+#coding2profilename a{
+    text-decoration: none;
+    color: black;
+}
+#coding2profilename a:hover{
+    cursor: pointer;
+    color: white;
+}
+#coding2vievs{
+    position: absolute;
+    left: 68px;
+    top: 210px;
+}
+
+
+#infinite2{
+    width: 350px;
+    height: 100px;
+    background-color: rgb(73, 66, 66);
+    position: absolute;
+    left: 620px;
+    top: 230px;
+}
+#infinite2picture{
+    width: 260px;
+    height: 130px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#infinite2profilepic{
+    width: 50px;
+    border-radius: 100px;
+    position: absolute;
+    left: 15px;
+    top: 150px;
+}
+#infinite2name{
+    color: white;
+    position: absolute;
+    left: 70px;
+    top: 150px;
+    width: 200px;
+}
+#infinite2profilename{
+    position: absolute;
+    left: 70px;
+    top: 188px;
+    font-size: 20px;
+}
+#infinite2profilename a{
+    text-decoration: none;
+    color: black;
+}
+
+#infinite2profilename a:hover{
+    cursor: pointer;
+    color: white;
+}
+#infinite2vievs{
+    position: absolute;
+    left: 68px;
+    top: 210px;
+}
+
+
+#emms2{
+    width: 350px;
+    height: 100px;
+    background-color: rgb(73, 66, 66);
+    position: absolute;
+    left: 915px;
+    top: 230px;
+}
+#emms2picture{
+    width: 260px;
+    height: 130px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#emms2profilepic{
+    width: 50px;
+    border-radius: 100px;
+    position: absolute;
+    left: 15px;
+    top: 150px;
+}
+#emms2name{
+    color: white;
+    position: absolute;
+    left: 70px;
+    top: 150px;
+    width: 200px;
+}
+#emms2profilename{
+    position: absolute;
+    left: 70px;
+    top: 188px;
+    font-size: 20px;
+}
+#emms2profilename a{
+    text-decoration: none;
+    color: black;
+}
+#emms2profilename a:hover{
+    cursor: pointer;
+    color: white;
+}
+#emms2vievs{
+    position: absolute;
+    left: 68px;
+    top: 210px;
+}
